@@ -4,16 +4,34 @@ body {
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;
 }
-
 footer {
-    color: #888;
+    color: #ffffff;
     margin-top: 15px;
-    text-align: center;
-    padding: 10px;
 }
-
 .avatar {
     width: 40px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: darkblue;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: darkblue;
+}
+
+nav li a:hover {
+    background-color: #111111;
 }
 
 .movie-list {
@@ -35,7 +53,19 @@ footer {
 .movie-list li:hover {
     background-color: #f8f9fa;
 }
+.float-right {
+    float: right;
+}
 
+.imdb {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background: #00B8FF;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
 .totoro {
     display: block;
     margin: 0 auto;
