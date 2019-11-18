@@ -34,6 +34,42 @@ nav li a:hover {
     background-color: #111111;
 }
 
+input[type=submit]{
+    font-family:inherit;
+}
+input[type=text]{
+    border:1px solid #ddd;
+}
+input[name=year]{
+    width:50px;
+}
+
+.btn{
+    font-size:12px;
+    padding: 3px 5px;
+    text-decoration: none;
+    cursor:pointer;
+    background-color: white;
+    color:black;
+    border:1px solid #555555;
+    border-radius:5px;
+}
+.btn:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border:1px solid black;
+}
+
+.alert{
+    position:relative;
+    padding: 7px;
+    margin:7px 0;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    border-radius: 5px;
+}
 .movie-list {
     list-style-type: none;
     padding: 0;
@@ -53,10 +89,13 @@ nav li a:hover {
 .movie-list li:hover {
     background-color: #f8f9fa;
 }
+
 .float-right {
     float: right;
 }
-
+.inline-form{
+    display: inline;
+}
 .imdb {
     font-size: 12px;
     font-weight: bold;
@@ -66,6 +105,7 @@ nav li a:hover {
     border-radius: 5px;
     padding: 3px 5px;
 }
+
 .totoro {
     display: block;
     margin: 0 auto;
