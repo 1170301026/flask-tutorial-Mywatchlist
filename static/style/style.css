@@ -11,17 +11,17 @@ footer {
 .avatar {
     width: 40px;
 }
-nav ul {
+.top ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background: darkblue;
 }
-nav li {
+.top li {
     float: left;
 }
-nav li a {
+.top li a {
     display: block;
     color: white;
     text-align: center;
@@ -30,7 +30,7 @@ nav li a {
     background-color: darkblue;
 }
 
-nav li a:hover {
+.top li a:hover {
     background-color: #111111;
 }
 

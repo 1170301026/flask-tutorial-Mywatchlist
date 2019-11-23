@@ -4,6 +4,7 @@
       <w>endblock</w>
       <w>endfor</w>
       <w>imdb</w>
+      <w>sqlalchemy</w>
       <w>totoro</w>
     </words>
   </dictionary>
